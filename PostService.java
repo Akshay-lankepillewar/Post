@@ -9,6 +9,7 @@ import java.util.UUID;
 
 @Service
 public class PostService {
+   @Autowired
     private PostRepository postRepository;
 
     public Post savePost(Post post){
